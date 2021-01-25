@@ -1,0 +1,22 @@
+{
+  "name": "2021-w1_quiz-app",
+  "version": "1.0.0",
+  "description": "This is my great quiz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verenaisele/2021-W1_quiz-app.git"
+  },
+  "author": "Verena Isele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verenaisele/2021-W1_quiz-app/issues"
+  },
+  "homepage": "https://github.com/verenaisele/2021-W1_quiz-app#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
