@@ -3,7 +3,10 @@
 img {
     width: 1rem;
 }
-
+.grosses_bild {
+    width: 10rem;
+    border-radius: 50%;
+}
 
 footer {
     position: fixed;
