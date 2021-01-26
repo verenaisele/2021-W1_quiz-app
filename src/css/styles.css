@@ -1,19 +1,6 @@
+@import './base.css';
+@import './components/footer.css';
+@import './components/cards.css';
+@import './components/header.css';
 
 
-img {
-    width: 1rem;
-}
-.grosses_bild {
-    width: 10rem;
-    border-radius: 50%;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-}

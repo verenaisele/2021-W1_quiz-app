@@ -1,0 +1,65 @@
+/* Resets and basic setup*/
+:root {
+    --primary: teal;
+    --secundary: ivory;
+}  
+  
+
+*,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3 {
+    line-height: 1.2;
+  }
+  
+  body, h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    font-size: 1.25rem; /* var(--fs-400) */
+    font-family: 'Tahoma';
+    background-color: var(--primary);
+    color: var(--secundary);
+  }
+  
+  ul[class],
+  ol[class] {
+    list-style: none;
+    padding: 0;
+  }
+  /*
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+/*
+  /* Typography */
+  
+  .text-serif {
+    font-family: var(--ff-serif);
+    font-weight: 200;
+  }
+  
+  .page-title {
+    font-size: var(--fs-900);
+  }
+  
+  .section-title {
+    font-size: var(--fs-500);
+    color: var(--secondary);
+  }
+  
+  /* general layout */
+  
+  .container {
+    max-width: 40rem;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+*/

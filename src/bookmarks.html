@@ -3,73 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookmarks</title>
+    <title>bookmarks</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Bookmarks</h1>
+        <h1 class="header">Bookmarks</h1>
     </header>
     
-<!--Question Cards gespeicherte Karten mit Bookmark-->
+<!--Question Cards-->
     <main>
+
         <!--Question Card 1-->
-        <section class="q_card">
+        <article class="card">
 
              <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
-           
+             <img class="card__image" src="images/bookmark.png" alt="bookmark">
             
-            <h2>Frage 1</h2>
-            <img src="images/bookmark_filled.png" alt="bookmark">
-            <p>Fragetext</p>
+             <h2 class="card__headline">Frage </h2>
+            
+            <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
+           
+            <ul class="card__answers">
+                <li>#</li>
+                <li>.</li>
+                <li>Liste</li>
+                <li>Klasse</li>
+            </ul>
 
-            <form> 
-                  <input type="radio" id="antwort1" name="antwort">
-                  <label for="antwort1">Antwort 1</label>
-              
-                  <input type="radio" id="antwort2" name="antwort">
-                  <label for="antwort2">Antwort 2</label>
-              
-                  <input type="radio" id="antwort3" name="antwort">
-                  <label for="antwort3">Antwort 3</label>
-              </form>              
+              <button class="card__button">Lösung anzeigen</button>
 
-              <button>Zeige Lösung</button>
+        </article>
 
-        </section>
+        <!--Question Card 2-->
+        <article class="card">
 
-        <!--Question Card 1-->
-        <h2>Frage 1</h2>
-            <img src="images/bookmark_filled.png" alt="bookmark">
-            <p>Fragetext</p>
+             <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
+             <img class="card__image" src="images/bookmark.png" alt="bookmark">
+            
+             <h2 class="card__headline">Frage </h2>
+            
+            <p class="card_question">Welchen Selektor hat eine ID Header?</p>
+           
+            <ul class="card__answers">
+                <li>.</li>
+                <li>Header</li>
+                <li>#</li>
+                <li>ID > Header</li>
+            </ul>
 
-            <form> 
-                  <input type="radio" id="antwort1" name="antwort">
-                  <label for="antwort1">Antwort 1</label>
-              
-                  <input type="radio" id="antwort2" name="antwort">
-                  <label for="antwort2">Antwort 2</label>
-              
-                  <input type="radio" id="antwort3" name="antwort">
-                  <label for="antwort3">Antwort 3</label>
-              </form>              
+              <button class="card__button">Lösung anzeigen</button>
 
-              <button>Zeige Lösung</button>
+        </article>
 
-        </section>
-
-
+    
     </main>
 
 <!--Footer-Bereich- Navigation zu anderen HTML-Seiten
 ToDo: Link als Bild einfügen-->
 
     <footer>
-        <a href="index.html">Home</a>
-        <a href="bookmarks.html">bookmark</a>
-        <a href="create.html">Create</a>
-        <a href="profile.html">profile</a>
+        <a class="footer__link" href="index.html">Home</a>
+        <a class="footer__link" href="bookmarks.html">Bookmark</a>
+        <a class="footer__link" href="create.html">Create</a>
+        <a class="footer__link" href="profile.html">Profil</a>
     </footer>
 
 </body>
