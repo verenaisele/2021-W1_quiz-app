@@ -9,80 +9,97 @@
 
 <body>
     <header>
-        <h1>Quiz-App</h1>
+        <h1 class="header">Quiz-App</h1>
     </header>
     
 <!--Question Cards-->
     <main>
         <!--Question Card 1-->
-        <section class="q_card">
+        <article class="card">
 
              <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
-           
             
-            <h2>Frage 1</h2>
-            <img src="images/bookmark.png" alt="bookmark">
-            <p>Fragetext</p>
+            <h2 class="card__headline" img src="images/bookmark.png" alt="bookmark">Frage</h2>
+            
+            
 
-            <form> 
+            <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
+
+            <form class="card_answers"> 
                   <input type="radio" id="antwort1" name="antwort">
-                  <label for="antwort1">Antwort 1</label>
+                  <label class="card__label" for="antwort1">#</label>
               
                   <input type="radio" id="antwort2" name="antwort">
-                  <label for="antwort2">Antwort 2</label>
+                  <label class="card__label" for="antwort2">.</label>
               
                   <input type="radio" id="antwort3" name="antwort">
-                  <label for="antwort3">Antwort 3</label>
+                  <label class="card__label" for="antwort3">Liste</label>
+
+                  <input type="radio" id="antwort4" name="antwort">
+                  <label class="card__label" for="antwort4">Klasse</label>
               </form>              
 
-              <button>Zeige Lösung</button>
+              <button class="card__button">Lösung anzeigen</button>
 
-        </section>
+            </article>
 
-        <!--Question Card 2-->
-        <section class="q_card">
-         
-            <h2>Frage 2</h2>
-            <img src="images/bookmark.png" alt="bookmark">
-            <p>Fragetext</p>
+        <!--Question Card 1-->
+        <article class="card">
 
-            <form> 
-                <input type="radio" id="antwort1" name="antwort">
-                <label for="antwort1">Antwort 1</label>
-            
-                <input type="radio" id="antwort2" name="antwort">
-                <label for="antwort2">Antwort 2</label>
-            
-                <input type="radio" id="antwort3" name="antwort">
-                <label for="antwort3">Antwort 3</label>
-            </form>                  
+            <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
+           
+           <h2 class="card__headline">Frage</h2>
+           
+           <img src="images/bookmark.png" alt="bookmark">
 
-              <button>Zeige Lösung</button>
+           <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
 
-        </section>
+           <form class="card_answers"> 
+                 <input type="radio" id="antwort1" name="antwort">
+                 <label class="card__label" for="antwort1">#</label>
+             
+                 <input type="radio" id="antwort2" name="antwort">
+                 <label class="card__label" for="antwort2">.</label>
+             
+                 <input type="radio" id="antwort3" name="antwort">
+                 <label class="card__label" for="antwort3">Liste</label>
 
-        <!--Question Card 3-->
-        <section class="q_card">
-            <h2>Frage 3</h2>
-            <img src="images/bookmark.png" alt="bookmark">
-            <p>Fragetext</p>
+                 <input type="radio" id="antwort4" name="antwort">
+                 <label class="card__label" for="antwort4">Klasse</label>
+             </form>              
 
-            <form> 
-                <input type="radio" id="antwort1" name="antwort">
-                <label for="antwort1">Antwort 1</label>
-            
-                <input type="radio" id="antwort2" name="antwort">
-                <label for="antwort2">Antwort 2</label>
-            
-                <input type="radio" id="antwort3" name="antwort">
-                <label for="antwort3">Antwort 3</label>
-            </form>                       
+             <button class="card__button">Lösung anzeigen</button>
 
-              <button>Zeige Lösung</button>
+           </article>
 
-        </section>
+            <!--Question Card 1-->
+        <article class="card">
 
+            <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
+           
+           <h2 class="card__headline">Frage</h2>
+           
+           <img src="images/bookmark.png" alt="bookmark">
 
+           <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
+
+           <form class="card_answers"> 
+                 <input type="radio" id="antwort1" name="antwort">
+                 <label class="card__label" for="antwort1">#</label>
+             
+                 <input type="radio" id="antwort2" name="antwort">
+                 <label class="card__label" for="antwort2">.</label>
+             
+                 <input type="radio" id="antwort3" name="antwort">
+                 <label class="card__label" for="antwort3">Liste</label>
+
+                 <input type="radio" id="antwort4" name="antwort">
+                 <label class="card__label" for="antwort4">Klasse</label>
+             </form>              
+
+             <button class="card__button">Lösung anzeigen</button>
+
+           </article>
 
 
     </main>
