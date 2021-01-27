@@ -1,9 +1,9 @@
-footer {
+/*.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: var(--primary);
+    color: var(--secundary);
     text-align: center;
 }
 
@@ -14,3 +14,19 @@ color: var(--secundary);
 margin: 2rem 1rem;
 font-size: 1rem;
 }
+*/
+
+/*Layout*/
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: fixed;
+    bottom:0;
+    top: auto;
+    left: 0;
+    right: 0;
+}
+

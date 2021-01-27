@@ -3,47 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create</title>
+    <title>create</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <h1>Create</h1>
-        <p>Hier hast du die Möglichkeit deine eigenen Quizkarten zu erstellen.</p>
+        <h1 class="header">Create</h1>
     </header>
     
-<!--Question Cards-->
+<!--Form für eigene Karten-->
     <main>
-        <!--Question-->
 
-        <label for="question">Trage hier deine Frage ein:</label>
+        <article class="card">
 
-        <textarea id="question" name="question"
-                  rows="5" cols="auto">
+             <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
+             <img class="card__image" src="images/bookmark.png" alt="bookmark">
+            
+             <h2 class="card__headline">Frage </h2>
+            
+            <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
+           
+            <ul class="card__answers">
+                <li>#</li>
+                <li>.</li>
+                <li>Liste</li>
+                <li>Klasse</li>
+            </ul>
+
+              <button class="card__button">Lösung anzeigen</button>
+
+        </article>
+
+        <!--Question Card 2-->
+        <article class="card">
+
+             <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
+             <img class="card__image" src="images/bookmark.png" alt="bookmark">
+            
+             <h2 class="card__headline">Frage </h2>
+            
+            <p class="card_question">Welchen Selektor hat eine ID Header?</p>
+           
+            <ul class="card__answers">
+                <li>.</li>
+                <li>Header</li>
+                <li>#</li>
+                <li>ID > Header</li>
+            </ul>
+
+              <button class="card__button">Lösung anzeigen</button>
+
+        </article>
+
     
-        </textarea>
-        
-        <!--Answer-->
-
-        <label for="question">Trage hier deine Antwort ein:</label>
-
-        <textarea id="question" name="question"
-                rows="5" cols="auto">
-
-        </textarea>
-
-        <button>Submit</button>
     </main>
 
 <!--Footer-Bereich- Navigation zu anderen HTML-Seiten
 ToDo: Link als Bild einfügen-->
 
-    <footer>
-        <a href="index.html">Home</a>
-        <a href="bookmarks.html">bookmark</a>
-        <a href="create.html">Create</a>
-        <a href="profile.html">profile</a>
+    <footer class="footer">
+
+        <nav class="footer__nav"></nav>
+            <ul class="footer__nav--list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bookmarks.html">Bookmarks</a></li>
+                <li><a href="create.html">
+                    <img scr="images/create.png" alt="create symbole"></a></li>
+                <li><a href="profile.html">Profil</a></li>
+            </ul>
+        </nav>
     </footer>
 
 </body>
