@@ -15,46 +15,31 @@
 <!--Form für eigene Karten-->
     <main>
 
-        <article class="card">
+        <article class="card form_card">
 
-             <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
-             <img class="card__image" src="images/bookmark.png" alt="bookmark">
-            
-             <h2 class="card__headline">Frage </h2>
-            
-            <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
-           
-            <ul class="card__answers">
-                <li>#</li>
-                <li>.</li>
-                <li>Liste</li>
-                <li>Klasse</li>
-            </ul>
+        <h2 class="card__headline">Meine Quizkarte</h2>
+        <p>Hier kannst du deine eigenen Quizkarten erstellen:</p>
+            <form action="">
+                <form action="servername" method="post">
+             <ul class="card__list">
+              <li>
+                <label for="frage">Frage:</label>
+                <input type="text" id="frage" name="frage">
+              </li>
+              <li>
+                <label for="antwort">Antwort:</label>
+                <textarea id="antwort" name="antwort"></textarea>
+              </li>
+               <li>
+                <label for="antwort">Weitere Antworten:</label>
+                <input type="text" id="antwort" name="antwort">
+              </li>
+             </ul>
+            </form>
+              
+            <button class="card__button">Quizkarte erstellen</button>
 
-              <button class="card__button">Lösung anzeigen</button>
-
-        </article>
-
-        <!--Question Card 2-->
-        <article class="card">
-
-             <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
-             <img class="card__image" src="images/bookmark.png" alt="bookmark">
-            
-             <h2 class="card__headline">Frage </h2>
-            
-            <p class="card_question">Welchen Selektor hat eine ID Header?</p>
-           
-            <ul class="card__answers">
-                <li>.</li>
-                <li>Header</li>
-                <li>#</li>
-                <li>ID > Header</li>
-            </ul>
-
-              <button class="card__button">Lösung anzeigen</button>
-
-        </article>
+        </article> <!--Ende /card-->
 
     
     </main>
