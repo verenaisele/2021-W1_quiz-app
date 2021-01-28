@@ -3,3 +3,12 @@ label {
     display: inline-block;
     width: 90px;
     text-align: right;
+}
+
+.card .form_card {
+    margin: 2rem 1rem;
+    padding: 0.5rem;
+}
+form>ul>li:nth-child(3) {
+    margin-top: 2rem;
+}
