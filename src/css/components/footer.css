@@ -1,0 +1,42 @@
+/*.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--secundary);
+    text-align: center;
+}
+
+.footer__link {
+text-decoration: none;
+text-align: center;
+color: var(--secundary);
+margin: 2rem 1rem;
+font-size: 1rem;
+}
+*/
+
+/*Layout*/
+
+.footer__nav {
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    height: auto;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.footer__nav > a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: var(--secundary);
+}
+
+.footer__nav--logo {
+    width: 2rem;
+    height: auto;
+}
