@@ -1,6 +1,22 @@
-.header {
-    margin: 2rem 1rem;
+header {
+    xmargin: 1rem 1rem;
+    text-align: center;
+
+    background-color: var (--primary);
+
+    position: fixed;
+    height: 3rem;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    
 }
 .header {
-    padding-left: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: var(--primary);
 }

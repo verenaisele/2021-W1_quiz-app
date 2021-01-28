@@ -19,10 +19,9 @@
         <article class="card">
 
              <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
-             <img class="card__image" src="images/bookmark.png" alt="bookmark">
+            <img class="card__image" src="images/bookmark.png" alt="bookmark">
             
-             <h2 class="card__headline">Frage</h2>
-            
+            <h2 class="card__headline">Frage</h2>
             <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
            
             <ul class="card__answers">
@@ -35,6 +34,18 @@
               <button class="card__button">Lösung anzeigen</button>
 
         </article>
+
+        <!--Antwort-->
+        <article class="card card__answer">
+           
+           <h2 class="card__headline">Antwort</h2>
+           <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
+          
+           <ul class="card__answers">
+               <li>#</li>
+           </ul>
+
+       </article>
 
         <!--Question Card 2-->
         <article class="card">
@@ -61,7 +72,7 @@
         <article class="card">
 
             <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
-            <img class="card__image" src="images/bookmark.png" alt="bookmark">
+            <img class="card__image" src="images/bookmark_filled.png" alt="bookmark">
             
             <h2 class="card__headline">Frage </h2>
            
@@ -77,18 +88,20 @@
              <button class="card__button">Lösung anzeigen</button>
 
        </article>
+
     </main>
 
-<!--Footer-Bereich- Navigation zu anderen HTML-Seiten
-ToDo: Link als Bild einfügen-->
+<!--Footer-Bereich- Navigation zu anderen HTML-Seiten-->
 
     <footer>
         <nav class="footer__nav">
 
-            <a class="footer__nav--link" href="index.html">Home</a>
-            <a class="footer__nav--link" href="bookmarks.html">Bookmark</a>
-            <a class="footer__nav--link" href="create.html">Create</a>
-            <a class="footer__nav--link" href="profile.html">Profil</a>
+            <a href="index.html">
+                <img class="footer__nav--logo" src="images/home.svg" alt="Logo Home-Symbol">
+            </a>
+            <a href="bookmarks.html"><img class="footer__nav--logo" src="images/bookmark_filled.png" alt="Logo Bookmark-Symbol"></a>
+            <a href="create.html"><img class="footer__nav--logo" src="images/create.svg" alt="Logo create-Symbol"></a>
+            <a href="profile.html"><img class="footer__nav--logo" src="images/profil.svg" alt="Logo profil-Symbol"></a>
          
         </nav>
     </footer>

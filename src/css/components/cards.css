@@ -3,33 +3,43 @@ margin: 2rem 1rem;
 padding: 0.5rem;
 
 background-color: var(--secundary);
-color: var(--primary);
+color: var(--black);
 
 font-size: 1rem;
+
+position: relative;
+z-index: 80;
 }
 
 
 .card__image {
-    width: 1rem;
+    width: 2rem;
     height: auto;
-    margin-left: auto;
     display: block;
+    position: absolute;
+    top: -10px;
+    right: 10px;
   }
 
-.card__question {
-    
-}
+
 .card__answers {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.25rem;
-    justify-content: space-around;
+    grid-gap: 0.5rem;
+    justify-content: space-between;
 }
+
+
 .card__answers > li {
-    border: solid 0.15rem var(--primary);
+    border: solid 0.1rem var(--primary);
+    text-align: center;
+    font-size: var(--fs-200);
 }
 
 .card__button {
     background-color: var(--primary);
-    color: var(--secundary);
+    color: var(--black);
+}
+.card__answer {
+    display: none;
 }
