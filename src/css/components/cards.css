@@ -22,19 +22,15 @@ z-index: 80;
     right: 10px;
   }
 
-
 .card__answers {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.5rem;
-    justify-content: space-between;
+    display: flex;
 }
-
-
 .card__answers > li {
+    flex-basis: 100%;
     border: solid 0.1rem var(--primary);
-    text-align: center;
     font-size: var(--fs-200);
+    padding: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .card__button {
