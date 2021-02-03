@@ -1,9 +1,10 @@
 /* Resets and basic setup*/
 :root {
-  --primary: rgb(42, 199, 199);
-  --primary-light: rgb(166, 240, 240);
-  --secundary: rgb(248, 7, 228);
-  --secundary-ligth: rgb(250, 178, 244);
+  --primary:rgb(119, 13, 140);
+  --primary-light:rgb(243, 211, 250);
+  --secundary: rgb(90, 140, 27);
+  --secundary-light: rgb(199, 253, 129);
+  
   --white: #ecf8f8;
   --black: #211103;
 
@@ -34,8 +35,8 @@
     line-height: 1.5;
     font-size: 1.25rem; /* var(--fs-400) */
     font-family: 'Tahoma';
-    background-color: var(--primary);
-    color: var(--secundary);
+    background-color: var(--primary-light);
+    color: var(--primary);
     margin: 0 auto;
   }
   

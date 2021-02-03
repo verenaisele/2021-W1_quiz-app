@@ -1,4 +1,7 @@
 /*Margin Karte zu Rand*/
 .mg-cd {
-    margin: 2rem 1rem;
+    margin: 2rem;
+}
+.hidden {
+    opacity: 0;
 }
