@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="app.js" defer></script>
 </head>
 
 <body>
@@ -31,12 +32,13 @@
                 <li>Klasse</li>
             </ul>
 
-              <button class="card__button">Lösung anzeigen</button>
+            <button id="button1" class="card__button">Lösung anzeigen</button>
+            <p id="answer1" class="hidden">.</p>
 
         </article>
 
         <!--Antwort-->
-        <article class="card card__answer">
+       <!-- <article class="card card__answer">
            
            <h2 class="card__headline">Antwort</h2>
            <p class="card_question">Welchen Selektor hat eine Klasse Liste?</p>
@@ -45,14 +47,16 @@
                <li>#</li>
            </ul>
 
-       </article>
+       </article>-->
 
         <!--Question Card 2-->
         <article class="card">
 
              <!--Bookmark inaktiv, soll sich durch Klick aktivieren und mit bookmarks.html verknüpfen-->
-             <img class="card__image" src="images/bookmark.png" alt="bookmark">
-            
+             <button id="bookmarkbutton">
+                 <img class="card__image" src="images/bookmark.png" alt="bookmark">
+                 <img id="bookmark_filled" class="card__image hidden" src="images/bookmark_filled.png" alt="bookmark">
+            </button>
              <h2 class="card__headline">Frage </h2>
             
             <p class="card_question">Welchen Selektor hat eine ID Header?</p>
@@ -64,7 +68,8 @@
                 <li>ID > Header</li>
             </ul>
 
-              <button class="card__button">Lösung anzeigen</button>
+              <button id="button2" class="card__button">Lösung anzeigen</button>
+              <p id="answer2" class="hidden">#</p>
 
         </article>
 

@@ -37,6 +37,14 @@ z-index: 80;
     background-color: var(--primary);
     color: var(--black);
 }
-.card__answer {
+/*.card__answer {
     display: none;
+}*/
+
+/*Button blendet Antwort ein mit JS*/
+.hidden {
+    opacity: 0;
+}
+p {
+    transition: opacity 2s ease-in;
 }
